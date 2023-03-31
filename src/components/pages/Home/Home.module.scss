@@ -1,0 +1,18 @@
+
+.wrapper-products {
+    
+}
+
+.collection-link {
+    text-decoration: none;
+    color: var(--bs-black);
+    opacity: 1;
+
+    :hover {
+        opacity: 0.6;
+        color: var(--bs-black);
+    }
+}
+
+
+

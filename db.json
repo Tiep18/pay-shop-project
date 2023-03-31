@@ -1,0 +1,208 @@
+
+{
+    "products": [
+      { 
+      "id": 1,  
+      "name": "T-shirt APHTK401",
+      "price": "20",
+      "thumbnail": "/images/products/Tshirts/APHTK401-QSNTK403-3-400x600.jpg",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Tshirts/APHTK401-QSNTK403-3-400x600.jpg"]
+      },
+      { 
+      "id": 2,  
+      "name": "T-shirt APHTK407",
+      "price": "20",
+      "thumbnail": "/images/products/Tshirts/APHTK407-QJDTK309-3-400x600.png",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Tshirts/APHTK407-QJDTK309-3-400x600.png"]
+      },
+      { 
+      "id": 3,  
+      "name": "T-shirt APHTK410",
+      "price": "20",
+      "thumbnail": "/images/products/Tshirts/APHTK410-QSNTK401-3.jpg",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Tshirts/APHTK410-QSNTK401-3.jpg", "/images/products/Tshirts/APHTK410-QSNTK401-8.jpg"]
+      },
+      { 
+      "id": 4,  
+      "name": "T-shirt APHTK411",
+      "price": "20",
+      "thumbnail": "/images/products/Tshirts/APHTK411-QJDTK309-2.jpg",
+      "category": "new-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Tshirts/APHTK411-QJDTK309-2.jpg"]
+      },
+      { 
+      "id": 5,  
+      "name": "T-shirt APHTK429",
+      "price": "20",
+      "thumbnail": "/images/products/Tshirts/APHTK429-QSNTK403-3-400x600.jpg",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Tshirts/APHTK429-QSNTK403-3-400x600.jpg", "/images/products/Tshirts/APHTK429-QSNTK403-7.jpg", "/images/products/Tshirts/APHTK429-QSNTK403-11.jpg"]
+      },
+      { 
+      "id": 6,  
+      "name": "T-shirt APHTK431",
+      "price": "20",
+      "thumbnail": "/images/products/Tshirts/APHTK431-QSNTK402-2.jpg",
+      "category": "new-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Tshirts/APHTK431-QSNTK402-2.jpg", "/images/products/Tshirts/APHTK431-QSNTK402-8.jpg", "/images/products/Tshirts/APHTK431-QSNTK402-13.jpg"]
+      },
+      { 
+      "id": 7,  
+      "name": "T-shirt APHTK433",
+      "price": "20",
+      "thumbnail": "/images/products/Tshirts/APHTK433-QJDTK309-3-2.jpg",
+      "category": "new-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Tshirts/APHTK433-QJDTK309-3-2.jpg", "/images/products/Tshirts/APHTK433-QSNTK403-3.jpg", "/images/products/Tshirts/APHTK433-QSNTK403-7.jpg"]
+      },
+      { 
+      "id": 8,  
+      "name": "T-shirt APHTK434",
+      "price": "20",
+      "thumbnail": "/images/products/Tshirts/APHTK434-QSNTK401-2.jpg",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Tshirts/APHTK434-QSNTK401-2.jpg", "/images/products/Tshirts/APHTK434-QSNTK402-2.jpg"]
+      },
+      { 
+      "id": 9,  
+      "name": "T-shirt APHTK419",
+      "price": "20",
+      "thumbnail": "/images/products/Tshirts/APMTK419-QSNTK402-2.jpg",
+      "category": "new-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Tshirts/APMTK419-QSNTK402-2.jpg", "/images/products/Tshirts/APMTK419-QSNTK403-3-400x600.jpg"]
+      },
+      { 
+      "id": 10,  
+      "name": "Polo POHTK401",
+      "price": "20",
+      "thumbnail": "/images/products/Polos/POHTK401-QASTK315-3.jpg",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Polos/POHTK401-QASTK315-3.jpg", "/images/products/Polos/POHTK401-QJDTK309-3-400x600.jpg", "/images/products/Polos/POHTK401-QSNTK401-3.jpg"]
+      },
+      { 
+      "id": 11,  
+      "name": "Polo POHTK404",
+      "price": "20",
+      "thumbnail": "/images/products/Polos/POHTK404-QASTK315-2.jpg",
+      "category": "new-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Polos/POHTK404-QASTK315-2.jpg", "/images/products/Polos/POHTK404-QJDTK338-3.jpg", "/images/products/Polos/POHTK404-QSNTK401-3-400x600.jpg"]
+      },
+      { 
+      "id": 12,  
+      "name": "Polo POHTK406",
+      "price": "20",
+      "thumbnail": "/images/products/Polos/POHTK406-QASTK315-3-1.jpg",
+      "category": "new-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Polos/POHTK406-QASTK315-3-1.jpg", "/images/products/Polos/POHTK406-QASTK315-7-1.jpg", "/images/products/Polos/POHTK406-QASTK315-7.jpg"]
+      },
+      { 
+      "id": 13,  
+      "name": "Polo POHTK408",
+      "price": "20",
+      "thumbnail": "/images/products/Polos/POHTK408-QJDTK334-3-2-400x600.jpg",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Polos/POHTK408-QJDTK334-3-2-400x600.jpg"]
+      },
+      { 
+      "id": 14,  
+      "name": "Polo POHTK405",
+      "price": "20",
+      "thumbnail": "/images/products/Polos/POMTK405-QASTK315-3.jpg",
+      "category": "new-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Polos/POMTK405-QASTK315-3.jpg", "/images/products/Polos/POMTK405-QJDTK309-4.jpg"]
+      },
+      { 
+      "id": 15,  
+      "name": "Polo POHTK403",
+      "price": "20",
+      "thumbnail": "/images/products/Polos/POTTK403-QASTK315-3-2.jpg",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Polos/POTTK403-QASTK315-3-2.jpg", "/images/products/Polos/POTTK403-QASTK315-3-3.jpg", "/images/products/Polos/POTTK403-QASTK315-8.jpg"]
+      },
+      { 
+      "id": 16,  
+      "name": "Shirt SDKTK347",
+      "price": "20",
+      "thumbnail": "/images/products/Shirts/SDKTK347-QACTK314-2.jpg",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Shirts/SDKTK347-QACTK314-2.jpg", "/images/products/Shirts/SDKTK347-QACTK314-9.jpg", "/images/products/Shirts/SDKTK347-QACTK314-15.jpg"]
+      },
+      { 
+      "id": 17,  
+      "name": "Shirt SDKTK348",
+      "price": "20",
+      "thumbnail": "/images/products/Shirts/SHDTK348-QACTK311-3.jpg",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Shirts/SHDTK348-QACTK311-3.jpg", "/images/products/Shirts/SHDTK348-QACTK311-8.jpg"]
+      },
+      { 
+      "id": 18,  
+      "name": "Shirt SDKTK306",
+      "price": "20",
+      "thumbnail": "/images/products/Shirts/STDTK306-QKTTK306-4.jpg",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Shirts/STDTK306-QKTTK306-4.jpg", "/images/products/Shirts/STDTK306-QKTTK306-9.jpg", "/images/products/Shirts/STDTK306-QKTTK306-14.jpg"]
+      },
+      { 
+      "id": 19,  
+      "name": "Shirt SDKTK342",
+      "price": "20",
+      "thumbnail": "/images/products/Shirts/STDTK342-QATTK305-11-400x600.jpg",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Shirts/STDTK342-QATTK305-11-400x600.jpg"]
+      },
+      { 
+      "id": 20,  
+      "name": "Shirt SDKTK345",
+      "price": "20",
+      "thumbnail": "/images/products/Shirts/STDTK345-QACTK320-2.jpg",
+      "category": "men-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Shirts/STDTK345-QACTK320-2.jpg", "/images/products/Shirts/STDTK345-QATTK319-2.jpg"]
+      }
+    ]
+    
+  }
+
+  

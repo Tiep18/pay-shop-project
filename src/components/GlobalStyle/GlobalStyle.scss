@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// custom dropdown navbar
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    margin-top: 0 !important;
+}
+
+// custom arrow slider
+.slick-prev:before,
+.slick-next:before {
+    color: #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bs-black);
+    
+}
+
+a:hover {
+    color: var(--bs-text-color) !important;
+}

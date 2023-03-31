@@ -1,0 +1,26 @@
+.wrapper {
+    min-height: 1000px;
+}
+
+.menu-item {
+    font-size: 1.4rem;
+    padding: 4px 8px;
+
+}
+
+.link {
+    color: var(--bs-black);
+    text-decoration: none;
+
+    :hover {
+        color: var(--bs-secondary)
+    }
+}
+
+@media (max-width: 991px) {
+    .menu-item {
+        font-size: 1.2rem;
+        padding: 4px 0px;
+    
+    }
+}

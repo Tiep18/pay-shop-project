@@ -1,0 +1,146 @@
+.link {
+    text-decoration: none;
+    color: var(--bs-secondary);
+    display: block;
+    
+}
+
+.image-thumbnail {
+    position: relative;
+    width: 100%;
+    padding-top: 150%;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.image-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;  
+}
+
+.image-item {
+    width: 60px;
+    height: 80px;
+    margin: 0 4px;
+    cursor: pointer;
+    border: solid 1px transparent;
+    :hover {
+        border: solid 1px blue;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: solid 1px transparent;
+    }
+}
+
+
+// Product detail
+
+.name-product {
+    line-height: 40px;
+}
+
+.price-product {
+    color: var(--bs-danger);
+    line-height: 40px;
+}
+
+.color {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+
+    p {
+        width: 100px;
+    }
+}
+
+.color-list-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-item-image {
+    height: 80px;
+    padding: 0 4px;
+    cursor: pointer;
+
+    :focus {
+        border: 1px solid var(--bs-secondary)
+    }
+
+    img {
+        height: 100%;
+        padding: 1px;
+    }
+}
+
+.color-item-image.active {
+    border: 2px solid var(--bs-primary);
+}
+
+.size {
+    display: flex;
+    margin-top: 16px;
+
+    p {
+        font-size: 1.2rem;
+        font-weight: 600;
+        width: 100px;
+    }
+}
+
+.size-list {
+display: flex;
+flex: 1;
+justify-content: center;
+align-items: center;
+}
+
+.size-item {
+    height: 32px;
+    width: 32px;
+    margin: 0 4px;
+    border: solid 1px #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+.size-item.active {
+    border: 2px solid var(--bs-primary);
+}
+
+.quantity-wrapper {
+    margin-top: 24px;
+
+    .quantity {
+        padding: 4px 8px;
+        width: 50px;
+        outline: none;
+    }
+
+    button {
+        height: 37px;
+        width: 32px;
+        outline: none;
+        border: none;
+    }
+}

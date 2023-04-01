@@ -6,6 +6,7 @@ import config from "../config/config";
 import Collection from "../components/pages/Collection/Collection";
 import Product from "../components/pages/Product/Product";
 import LogIn from "../components/pages/LogIn/LogIn";
+import SignIn from "../components/pages/SignIn/SignIn";
 
 export const publicRoutes = [
     { path: config.routes.home, component: Home },
@@ -17,6 +18,7 @@ export const publicRoutes = [
     { path: config.routes.womenCollection, component: Collection },
     { path: config.routes.product, component: Product },
     { path: config.routes.login, component: LogIn },
+    { path: config.routes.signin, component: SignIn },
     // { path: config.routes.menCollection, component: Collection },
     // { path: config.routes.womenCollection, component: Collection },
 ];

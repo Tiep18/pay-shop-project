@@ -2,6 +2,8 @@ import classNames from "classnames/bind";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import styles from "./LogIn.module.scss";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
+import routes from "config/routes";
 
 const cx = classNames.bind(styles);
 
@@ -18,6 +20,7 @@ function LogIn() {
 
     return (
         <Container className="mt-3">
+            <h5 className="header ">Log In</h5>
             <Row>
                 <Col className="col-12 col-md-6 col-xl-4 mx-auto">
                     <Form onSubmit={handleSubmit(handleOnSubmit)}>
@@ -71,13 +74,25 @@ function LogIn() {
                             />
                         </Form.Group>
                         <Button
-                            variant="primary"
+                            variant="secondary"
                             type="submit"
                             className="w-100"
                         >
                             Submit
                         </Button>
                     </Form>
+                    <Row className="mt-1">
+                        <Col className="col-6">
+                            <Link to="/" className={cx("link")}>
+                                Fogot your password?
+                            </Link>
+                        </Col>
+                        <Col className="col-6 text-end">
+                            <Link to={routes.signin} className={cx("link")}>
+                                Create new account
+                            </Link>
+                        </Col>
+                    </Row>
                 </Col>
             </Row>
         </Container>

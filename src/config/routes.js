@@ -8,6 +8,7 @@ const routes = {
     cart: "/cart",
     product: "/products/:id",
     login: "/login",
+    signin: "/signin",
 };
 
 export default routes;

@@ -200,6 +200,346 @@
       "sizes": ["S", "M", "L", "XL"],
       "color": ["black", "white", "red", "green", "yellow"],
       "image": ["/images/products/Shirts/STDTK345-QACTK320-2.jpg", "/images/products/Shirts/STDTK345-QATTK319-2.jpg"]
+      },
+      { 
+      "id": 21,  
+      "name": "Jeans QJDTK319",
+      "price": "20",
+      "thumbnail": "/images/products/Jeans/ALETK303-QJDTK319-5-400x600.jpg",
+      "category": "jeans-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Jeans/ALETK303-QJDTK319-5-400x600.jpg"]
+      },
+      { 
+      "id": 22,  
+      "name": "Jeans QJDTK324",
+      "price": "20",
+      "thumbnail": "/images/products/Jeans/ANHTK316-QJDTK324-5-400x600.jpg",
+      "category": "jeans-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Jeans/ANHTK316-QJDTK324-5-400x600.jpg"]
+      },
+      { 
+      "id": 23,  
+      "name": "Jeans QJDTK317",
+      "price": "20",
+      "thumbnail": "/images/products/Jeans/QJDTK317-2-400x600.jpg",
+      "category": "jeans-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Jeans/QJDTK317-2-400x600.jpg"]
+      },
+      { 
+      "id": 24,  
+      "name": "Jeans QJDTK323",
+      "price": "20",
+      "thumbnail": "/images/products/Jeans/QJDTK323-1-400x600.jpg",
+      "category": "jeans-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Jeans/QJDTK323-1-400x600.jpg"]
+      },
+      { 
+      "id": 25,  
+      "name": "Jeans QJDTK325",
+      "price": "20",
+      "thumbnail": "/images/products/Jeans/QJDTK325-2-400x600.gif",
+      "category": "jeans-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Jeans/QJDTK325-2-400x600.gif"]
+      },
+      { 
+      "id": 26,  
+      "name": "Jeans QJDTK326",
+      "price": "20",
+      "thumbnail": "/images/products/Jeans/QJDTK326-1-400x600.jpg",
+      "category": "jeans-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Jeans/QJDTK326-1-400x600.jpg"]
+      },
+      { 
+      "id": 27,  
+      "name": "Jeans QJDTK327",
+      "price": "20",
+      "thumbnail": "/images/products/Jeans/QJDTK327-3-400x600.jpg",
+      "category": "jeans-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Jeans/QJDTK327-3-400x600.jpg"]
+      },
+      { 
+      "id": 28,  
+      "name": "Jeans QJDTK328",
+      "price": "20",
+      "thumbnail": "/images/products/Jeans/QJDTK328-400x600.gif",
+      "category": "jeans-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Jeans/QJDTK328-400x600.gif"]
+      },
+      { 
+      "id": 29,  
+      "name": "Jeans QJDTK329",
+      "price": "20",
+      "thumbnail": "/images/products/Jeans/QJDTK329-2-400x600.jpg",
+      "category": "jeans-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Jeans/QJDTK329-2-400x600.jpg"]
+      },
+      { 
+      "id": 30,  
+      "name": "Jeans QJDTK330",
+      "price": "20",
+      "thumbnail": "/images/products/Jeans/QJDTK330-400x600.gif",
+      "category": "jeans-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Jeans/QJDTK330-400x600.gif"]
+      },
+      { 
+      "id": 31,  
+      "name": "Jeans QJDTK332",
+      "price": "20",
+      "thumbnail": "/images/products/Jeans/QJDTK332-400x600.gif",
+      "category": "jeans-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Jeans/QJDTK332-400x600.gif"]
+      },
+      { 
+      "id": 32,  
+      "name": "Jeans QJDTK333",
+      "price": "20",
+      "thumbnail": "/images/products/Jeans/QJDTK333-2-400x600.gif",
+      "category": "jeans-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Jeans/QJDTK333-2-400x600.gif"]
+      },
+      { 
+      "id": 33,  
+      "name": "Jogger QGNTK313",
+      "price": "20",
+      "thumbnail": "/images/products/Joggers/ANHTK301-QGNTK313-5.jpg",
+      "category": "joggers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Joggers/ANHTK301-QGNTK313-5.jpg", "/images/products/Joggers/ANHTK317-QGNTK313-7.jpg"]
+      },
+      { 
+      "id": 34,  
+      "name": "Jogger QGNTK312",
+      "price": "20",
+      "thumbnail": "/images/products/Joggers/ANHTK320-QGNTK312-7.jpg",
+      "category": "joggers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Joggers/ANHTK320-QGNTK312-7.jpg"]
+      },
+      { 
+      "id": 35,  
+      "name": "Jogger QGNTK308",
+      "price": "20",
+      "thumbnail": "/images/products/Joggers/ApTTK360-QGNTK308-3.jpg",
+      "category": "joggers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Joggers/ApTTK360-QGNTK308-3.jpg"]
+      },
+      { 
+      "id": 36,  
+      "name": "Jogger QGGTK311",
+      "price": "20",
+      "thumbnail": "/images/products/Joggers/QGGTK311-2.jpg",
+      "category": "joggers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Joggers/QGGTK311-2.jpg", "/images/products/Joggers/QGGTK311-7.jpg","/images/products/Joggers/QGGTK311-12.jpg"]
+      },
+      { 
+      "id": 37,  
+      "name": "Jogger QGKTK305",
+      "price": "20",
+      "thumbnail": "/images/products/Joggers/QGKTK305-1-1.jpg",
+      "category": "joggers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Joggers/QGKTK305-1-1.jpg", "/images/products/Joggers/QGKTK305-4-1.jpg","/images/products/Joggers/QGKTK305-8-1.jpg"]
+      },
+      { 
+      "id": 38,  
+      "name": "Jogger QGNTK306",
+      "price": "20",
+      "thumbnail": "/images/products/Joggers/QGNTK306-1-1.jpg",
+      "category": "joggers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Joggers/QGNTK306-1-1.jpg", "/images/products/Joggers/QGNTK306-5.jpg"]
+      },
+      { 
+      "id": 39,  
+      "name": "Jogger QGNTK308",
+      "price": "20",
+      "thumbnail": "/images/products/Joggers/QGNTK308-1.jpg",
+      "category": "joggers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Joggers/QGNTK308-1.jpg", "/images/products/Joggers/QGNTK308-7.jpg"]
+      },
+      { 
+      "id": 40,  
+      "name": "Jogger QGNTK309",
+      "price": "20",
+      "thumbnail": "/images/products/Joggers/QGNTK309-1-1.jpg",
+      "category": "joggers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Joggers/QGNTK309-1-1.jpg", "/images/products/Joggers/QGNTK309-4.jpg"]
+      },
+      { 
+      "id": 41,  
+      "name": "Jogger QGNTK312",
+      "price": "20",
+      "thumbnail": "/images/products/Joggers/QGNTK312-2.jpg",
+      "category": "joggers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Joggers/QGNTK312-2.jpg", "/images/products/Joggers/QGNTK312-5.jpg", "/images/products/Joggers/QGNTK312-8.jpg"]
+      },
+      { 
+      "id": 42,  
+      "name": "Jogger QGNTK315",
+      "price": "20",
+      "thumbnail": "/images/products/Joggers/QGNTK315-1-400x600.gif",
+      "category": "joggers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Joggers/QGNTK315-1-400x600.gif"]
+      },
+      { 
+      "id": 43,  
+      "name": "Trousers QATTK310",
+      "price": "20",
+      "thumbnail": "/images/products/Trousers/APTTK360-QATTK310-6.jpg",
+      "category": "trousers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Trousers/APTTK360-QATTK310-6.jpg", "/images/products/Trousers/APTTK360-QATTK310-13.jpg"]
+      },
+      { 
+      "id": 44,  
+      "name": "Trousers QACTK306",
+      "price": "20",
+      "thumbnail": "/images/products/Trousers/QACTK306-1.jpg",
+      "category": "trousers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Trousers/QACTK306-1.jpg", "/images/products/Trousers/QACTK306-GIACN305-11.jpg", "/images/products/Trousers/QACTK306-GIACN306-7.jpg"]
+      },
+      { 
+      "id": 45,  
+      "name": "Trousers QACTK308",
+      "price": "20",
+      "thumbnail": "/images/products/Trousers/QACTK308-6.jpg",
+      "category": "trousers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Trousers/QACTK308-6.jpg", "/images/products/Trousers/QACTK308.jpg"]
+      },
+      { 
+      "id": 46,  
+      "name": "Trousers QACTK311",
+      "price": "20",
+      "thumbnail": "/images/products/Trousers/QACTK311-1-400x600.gif",
+      "category": "trousers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Trousers/QACTK311-1-400x600.gif"]
+      },
+      { 
+      "id": 47,  
+      "name": "Trousers QACTK314",
+      "price": "20",
+      "thumbnail": "/images/products/Trousers/QACTK314-2.jpg",
+      "category": "trousers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Trousers/QACTK314-2.jpg", "/images/products/Trousers/QACTK314-5.jpg", "/images/products/Trousers/QACTK314-8.jpg"]
+      },
+      { 
+      "id": 48,  
+      "name": "Trousers QACTK320",
+      "price": "20",
+      "thumbnail": "/images/products/Trousers/QACTK320-1.jpg",
+      "category": "trousers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Trousers/QACTK320-1.jpg", "/images/products/Trousers/QACTK320-5.jpg", "/images/products/Trousers/QACTK320-8.jpg"]
+      },
+      { 
+      "id": 49,  
+      "name": "Trousers QATTK313",
+      "price": "20",
+      "thumbnail": "/images/products/Trousers/QATTK313-1.jpg",
+      "category": "trousers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Trousers/QATTK313-1.jpg", "/images/products/Trousers/QATTK313-4.jpg"]
+      },
+      { 
+      "id": 50,  
+      "name": "Trousers QATTK316",
+      "price": "20",
+      "thumbnail": "/images/products/Trousers/QATTK316-1-400x600.gif",
+      "category": "trousers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Trousers/QATTK316-1-400x600.gif", "/images/products/Trousers/QATTK316-5.gif", "/images/products/Trousers/QATTK316-7.gif"]
+      },
+      { 
+      "id": 51,  
+      "name": "Trousers QATTK317",
+      "price": "20",
+      "thumbnail": "/images/products/Trousers/QATTK317-2.jpg",
+      "category": "trousers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Trousers/QATTK317-2.jpg", "/images/products/Trousers/QATTK317-5.jpg", "/images/products/Trousers/QATTK317-8.jpg"]
+      },
+      { 
+      "id": 52,  
+      "name": "Trousers QATTK319",
+      "price": "20",
+      "thumbnail": "/images/products/Trousers/QATTK319-1.jpg",
+      "category": "trousers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Trousers/QATTK319-1.jpg", "/images/products/Trousers/QATTK319-4.jpg", "/images/products/Trousers/QATTK319-7.jpg"]
+      },
+      { 
+      "id": 53,  
+      "name": "Trousers QDSTK301",
+      "price": "20",
+      "thumbnail": "/images/products/Trousers/QDSTK301-1.jpg",
+      "category": "trousers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Trousers/QDSTK301-1.jpg", "/images/products/Trousers/QDSTK301-4.jpg"]
+      },
+      { 
+      "id": 54,  
+      "name": "Trousers QACTK320",
+      "price": "20",
+      "thumbnail": "/images/products/Trousers/STDTK345-QACTK320-8.jpg",
+      "category": "trousers-collection",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["black", "white", "red", "green", "yellow"],
+      "image": ["/images/products/Trousers/STDTK345-QACTK320-8.jpg"]
       }
     ]
     

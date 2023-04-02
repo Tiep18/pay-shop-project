@@ -15,10 +15,10 @@ export const publicRoutes = [
     { path: config.routes.contact, component: ContactPage },
     { path: config.routes.newCollection, component: Collection },
     { path: config.routes.menCollection, component: Collection },
-    { path: config.routes.womenCollection, component: Collection },
+    { path: config.routes.jeansCollection, component: Collection },
+    { path: config.routes.joggersCollection, component: Collection },
+    { path: config.routes.trousersCollection, component: Collection },
     { path: config.routes.product, component: Product },
     { path: config.routes.login, component: LogIn },
     { path: config.routes.signin, component: SignIn },
-    // { path: config.routes.menCollection, component: Collection },
-    // { path: config.routes.womenCollection, component: Collection },
 ];

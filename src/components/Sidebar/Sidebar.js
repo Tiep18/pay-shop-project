@@ -38,10 +38,28 @@ function Sidebar() {
 
                 <div className={cx("menu-item")}>
                     <NavLink
-                        to={config.routes.womenCollection}
+                        to={config.routes.jeansCollection}
                         className={cx("link")}
                     >
-                        <span>Women's Collection</span>
+                        <span>Jeans Collection</span>
+                    </NavLink>
+                </div>
+
+                <div className={cx("menu-item")}>
+                    <NavLink
+                        to={config.routes.trousersCollection}
+                        className={cx("link")}
+                    >
+                        <span>Trousers Collection</span>
+                    </NavLink>
+                </div>
+
+                <div className={cx("menu-item")}>
+                    <NavLink
+                        to={config.routes.joggersCollection}
+                        className={cx("link")}
+                    >
+                        <span>Joggers Collection</span>
                     </NavLink>
                 </div>
             </div>

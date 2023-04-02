@@ -9,7 +9,6 @@ function Collection() {
     const nameCollection = pathname.split("/")[2];
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        // getProducts(nameCollection).then((res) => setProducts(res));
         const getProducts = async () => {
             const products = await categoriesApi.getCollection(nameCollection);
             setProducts(products);

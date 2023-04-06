@@ -19,6 +19,10 @@ const categoriesApi = {
         const url = "/";
         axiosClient.post(url, data);
     },
+    searchProducts(name) {
+        const url = "";
+        return axiosClient.get(url, { params: { name_like: name, _limit: 5 } });
+    },
 };
 
 export default categoriesApi;

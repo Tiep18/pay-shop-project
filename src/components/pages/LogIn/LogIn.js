@@ -30,6 +30,7 @@ function LogIn() {
                                 {...register("email", {
                                     required: "This is a required field",
                                     pattern: {
+                                        // eslint-disable-next-line no-useless-escape
                                         value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
                                         message:
                                             "The value is not a valid email address",

@@ -17,49 +17,59 @@ function Sidebar() {
                 "d-lg-block"
             )}
         >
-            <h3 className="title">Sidebar</h3>
-            <div className="list-collections">
+            <h3 className={cx("title")}>Collections</h3>
+            <div className={cx("list-collections")}>
                 <div className={cx("menu-item")}>
                     <NavLink
                         to={config.routes.newCollection}
-                        className={cx("link")}
+                        className={(nav) =>
+                            cx("link", { active: nav.isActive })
+                        }
                     >
-                        <span>New's Collection</span>
+                        <span>NEW COLLECTION</span>
                     </NavLink>
                 </div>
                 <div className={cx("menu-item")}>
                     <NavLink
                         to={config.routes.menCollection}
-                        className={cx("link")}
+                        className={(nav) =>
+                            cx("link", { active: nav.isActive })
+                        }
                     >
-                        <span>Men's Collection</span>
+                        <span>MEN COLLECTION</span>
                     </NavLink>
                 </div>
 
                 <div className={cx("menu-item")}>
                     <NavLink
                         to={config.routes.jeansCollection}
-                        className={cx("link")}
+                        className={(nav) =>
+                            cx("link", { active: nav.isActive })
+                        }
                     >
-                        <span>Jeans Collection</span>
+                        <span>JEANS COLLECTION</span>
                     </NavLink>
                 </div>
 
                 <div className={cx("menu-item")}>
                     <NavLink
                         to={config.routes.trousersCollection}
-                        className={cx("link")}
+                        className={(nav) =>
+                            cx("link", { active: nav.isActive })
+                        }
                     >
-                        <span>Trousers Collection</span>
+                        <span>TROUSERS COLLECTION</span>
                     </NavLink>
                 </div>
 
                 <div className={cx("menu-item")}>
                     <NavLink
                         to={config.routes.joggersCollection}
-                        className={cx("link")}
+                        className={(nav) =>
+                            cx("link", { active: nav.isActive })
+                        }
                     >
-                        <span>Joggers Collection</span>
+                        <span>JOGGERS COLLECTION</span>
                     </NavLink>
                 </div>
             </div>

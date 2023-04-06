@@ -22,8 +22,8 @@ function Collection() {
                 <Sidebar></Sidebar>
                 <div className="col col-lg-9 col-12">
                     <div className="row">
-                        <h3 className="heading text-center">
-                            {nameCollection}
+                        <h3 className="heading text-center my-3">
+                            {nameCollection.toUpperCase().replace("-", " ")}
                         </h3>
                     </div>
                     <div className="row gy-4 gx-0">

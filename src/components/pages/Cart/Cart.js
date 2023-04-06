@@ -72,66 +72,91 @@ function Cart() {
                         </div>
 
                         {/* product list */}
-                        <div className={cx("product-list", "col-12")}>
-                            {products.map((product) => (
-                                <div
-                                    key={product.uuid}
-                                    className={cx("product-item", "col")}
-                                >
-                                    <div className="col-6 d-flex align-items-center">
-                                        <div
-                                            className={cx("thumbnail", "col-4")}
-                                        >
-                                            <img
-                                                src={product.colorImg}
-                                                alt="product"
-                                            />
-                                        </div>
-                                        <div className="col-8">
-                                            <h6 className={cx("name-product")}>
-                                                {product.name}
-                                            </h6>
-                                            <p className={cx("specifications")}>
-                                                {`${product.color}, ${product.size}`}
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-6 d-flex">
-                                        <div className="col-4">{`$${product.price}`}</div>
-                                        <div
-                                            className={cx(
-                                                "product-item-qty",
-                                                "col-4"
-                                            )}
-                                        >
-                                            <input
-                                                type="number"
-                                                value={product.qty}
-                                                onChange={(e) =>
-                                                    handleQty(e, product.uuid)
-                                                }
-                                            />
-                                        </div>
-                                        <div
-                                            className={cx("col-4", "sub-total")}
-                                        >
-                                            {`$${product.qty * product.price}`}
-
+                        {products.length ? (
+                            <div className={cx("product-list", "col-12")}>
+                                {products.map((product) => (
+                                    <div
+                                        key={product.uuid}
+                                        className={cx("product-item", "col")}
+                                    >
+                                        <div className="col-6 d-flex align-items-center">
                                             <div
-                                                className={cx("icon")}
-                                                onClick={() =>
-                                                    handleRemoveProduct(
-                                                        product.uuid
-                                                    )
-                                                }
+                                                className={cx(
+                                                    "thumbnail",
+                                                    "col-4"
+                                                )}
                                             >
-                                                <i className="fa fa-regular fa-trash"></i>
+                                                <img
+                                                    src={product.colorImg}
+                                                    alt="product"
+                                                />
+                                            </div>
+                                            <div className="col-8">
+                                                <h6
+                                                    className={cx(
+                                                        "name-product"
+                                                    )}
+                                                >
+                                                    {product.name}
+                                                </h6>
+                                                <p
+                                                    className={cx(
+                                                        "specifications"
+                                                    )}
+                                                >
+                                                    {`${product.color}, ${product.size}`}
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div className="col-6 d-flex">
+                                            <div className="col-4">{`$${product.price}`}</div>
+                                            <div
+                                                className={cx(
+                                                    "product-item-qty",
+                                                    "col-4"
+                                                )}
+                                            >
+                                                <input
+                                                    type="number"
+                                                    value={product.qty}
+                                                    onChange={(e) =>
+                                                        handleQty(
+                                                            e,
+                                                            product.uuid
+                                                        )
+                                                    }
+                                                />
+                                            </div>
+                                            <div
+                                                className={cx(
+                                                    "col-4",
+                                                    "sub-total"
+                                                )}
+                                            >
+                                                {`$${
+                                                    product.qty * product.price
+                                                }`}
+
+                                                <div
+                                                    className={cx("icon")}
+                                                    onClick={() =>
+                                                        handleRemoveProduct(
+                                                            product.uuid
+                                                        )
+                                                    }
+                                                >
+                                                    <i className="fa fa-regular fa-trash"></i>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            ))}
-                        </div>
+                                ))}
+                            </div>
+                        ) : (
+                            <h4 className="mt-3">
+                                There is nothing in your cart
+                            </h4>
+                        )}
                     </div>
                 </div>
                 <div

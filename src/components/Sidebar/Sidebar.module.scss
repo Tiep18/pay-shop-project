@@ -1,21 +1,41 @@
 .wrapper {
-    min-height: 1000px;
+}
+
+.title {
+    margin: 16px 0;
+
+}
+
+.list-collections {
+    margin-top: 16px;
+    border-top: 1px solid var(--bs-gray-300);
+    padding-left: 4px;
 }
 
 .menu-item {
-    font-size: 1.4rem;
-    padding: 4px 8px;
+    font-size: 1.2rem;
+    padding: 0 8px;
+    border-radius: 4px;
 
+    &:hover {
+        background-color: var(--bs-gray-100)
+    }
+    
+    &:has(.link.active) {
+        background-color: var(--bs-gray-300)
+    }
 }
 
+
 .link {
+    padding: 12px 0;
+    display: block;
     color: var(--bs-black);
     text-decoration: none;
 
-    :hover {
-        color: var(--bs-secondary)
-    }
+    
 }
+
 
 @media (max-width: 991px) {
     .menu-item {
@@ -24,3 +44,4 @@
     
     }
 }
+

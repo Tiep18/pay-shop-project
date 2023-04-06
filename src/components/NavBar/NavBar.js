@@ -11,6 +11,7 @@ import styles from "./NavBar.module.scss";
 import { useSelector } from "react-redux";
 import { productRemainingSelector } from "../../redux/selectors";
 import { useEffect, useState } from "react";
+import Search from "components/Search/Search";
 
 const cx = classNames.bind(styles);
 
@@ -35,15 +36,8 @@ function NavBar() {
                     <Navbar.Toggle aria-controls="navbarScroll" />
 
                     <Navbar.Collapse id="navbarScroll">
-                        <Form className="d-flex flex-grow-1">
-                            <Form.Control
-                                type="search"
-                                placeholder="Find something..."
-                                className="me-2 border-secondary bg-secondary bg-opacity-10"
-                                aria-label="Search"
-                            />
-                            <Button variant="outline-secondary">Search</Button>
-                        </Form>
+                        {/* Search component */}
+                        <Search />
                         <Form className="d-flex ms-lg-5 my-lg-0 my-2">
                             <Link to={routes.login}>
                                 <Button variant="outline-secondary">
@@ -95,10 +89,22 @@ function NavBar() {
                                 Men's Collection
                             </Link>
                             <Link
-                                to={routes.womenCollection}
+                                to={routes.jeansCollection}
                                 className="nav-link"
                             >
-                                Women's Collection
+                                Jeans Collection
+                            </Link>
+                            <Link
+                                to={routes.trousersCollection}
+                                className="nav-link"
+                            >
+                                Trousers Collection
+                            </Link>
+                            <Link
+                                to={routes.joggersCollection}
+                                className="nav-link"
+                            >
+                                Joggers Collection
                             </Link>
                         </NavDropdown>
 

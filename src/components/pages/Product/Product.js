@@ -39,11 +39,11 @@ function Product() {
         setActiveSize(size);
     };
     useEffect(() => {
-        const getProduct = async (id) => {
-            const product = await categoriesApi.getProduct(id);
+        const getProduct = async () => {
+            const product = await categoriesApi.getProduct(param.id);
             setProduct(product);
         };
-        getProduct(param.id);
+        getProduct();
     }, [param]);
 
     const handleAddToCart = () => {
